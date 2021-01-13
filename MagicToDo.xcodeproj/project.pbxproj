@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		2B273C3225AD4BE0001AC7C5 /* MagicToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B273C3125AD4BE0001AC7C5 /* MagicToDoApp.swift */; };
-		2B273C3425AD4BE0001AC7C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B273C3325AD4BE0001AC7C5 /* ContentView.swift */; };
 		2B273C3625AD4BE2001AC7C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B273C3525AD4BE2001AC7C5 /* Assets.xcassets */; };
 		2B273C3925AD4BE2001AC7C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B273C3825AD4BE2001AC7C5 /* Preview Assets.xcassets */; };
 		2B273C3B25AD4BE2001AC7C5 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B273C3A25AD4BE2001AC7C5 /* Persistence.swift */; };
 		2B273C3E25AD4BE2001AC7C5 /* MagicToDo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B273C3C25AD4BE2001AC7C5 /* MagicToDo.xcdatamodeld */; };
+		2B273C4725AD4E65001AC7C5 /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B273C4625AD4E65001AC7C5 /* TasksView.swift */; };
+		2B273C4C25AE24E5001AC7C5 /* TasksDoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B273C4B25AE24E5001AC7C5 /* TasksDoneView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2B273C2E25AD4BE0001AC7C5 /* MagicToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B273C3125AD4BE0001AC7C5 /* MagicToDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicToDoApp.swift; sourceTree = "<group>"; };
-		2B273C3325AD4BE0001AC7C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2B273C3525AD4BE2001AC7C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B273C3825AD4BE2001AC7C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2B273C3A25AD4BE2001AC7C5 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		2B273C3D25AD4BE2001AC7C5 /* MagicToDo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MagicToDo.xcdatamodel; sourceTree = "<group>"; };
 		2B273C3F25AD4BE2001AC7C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B273C4625AD4E65001AC7C5 /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		2B273C4B25AE24E5001AC7C5 /* TasksDoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksDoneView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +58,9 @@
 		2B273C3025AD4BE0001AC7C5 /* MagicToDo */ = {
 			isa = PBXGroup;
 			children = (
+				2B273C4B25AE24E5001AC7C5 /* TasksDoneView.swift */,
+				2B273C4625AD4E65001AC7C5 /* TasksView.swift */,
 				2B273C3125AD4BE0001AC7C5 /* MagicToDoApp.swift */,
-				2B273C3325AD4BE0001AC7C5 /* ContentView.swift */,
 				2B273C3525AD4BE2001AC7C5 /* Assets.xcassets */,
 				2B273C3A25AD4BE2001AC7C5 /* Persistence.swift */,
 				2B273C3F25AD4BE2001AC7C5 /* Info.plist */,
@@ -146,8 +149,9 @@
 			files = (
 				2B273C3B25AD4BE2001AC7C5 /* Persistence.swift in Sources */,
 				2B273C3E25AD4BE2001AC7C5 /* MagicToDo.xcdatamodeld in Sources */,
-				2B273C3425AD4BE0001AC7C5 /* ContentView.swift in Sources */,
+				2B273C4C25AE24E5001AC7C5 /* TasksDoneView.swift in Sources */,
 				2B273C3225AD4BE0001AC7C5 /* MagicToDoApp.swift in Sources */,
+				2B273C4725AD4E65001AC7C5 /* TasksView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

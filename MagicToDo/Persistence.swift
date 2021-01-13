@@ -13,9 +13,18 @@ struct PersistenceController {
     static var preview: PersistenceController = {
         let result = PersistenceController(inMemory: true)
         let viewContext = result.container.viewContext
-        for _ in 0..<10 {
-            let newItem = Item(context: viewContext)
-            newItem.timestamp = Date()
+
+        for _ in 0..<3 {
+            let newItem = ToDoItem(context: viewContext)
+            newItem.createdAt = Date()
+            newItem.taskDone = false
+            newItem.taskTitle = "Preview Task"
+        }
+        for _ in 0..<2 {
+            let newItem = ToDoItem(context: viewContext)
+            newItem.createdAt = Date()
+            newItem.taskDone = true
+            newItem.taskTitle = "Preview Task Done"
         }
         do {
             try viewContext.save()
